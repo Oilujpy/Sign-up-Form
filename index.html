@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up Form</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="left-container">
+            <img src="./img/photo-1585202900225-6d3ac20a6962.avif" alt="green leaf plant in close up photography">
+            <div class="card-container">
+                <img src="./img/odin-lined.png" alt="the odin project logo" class="card-image">
+                <div class="card-title">ODIN</div>
+            </div>
+            <div class="credits">
+                <p>Photo by <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank">Halie West</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="header">
+                <p class="header-text">
+                    This is not a real online service! You know you need something like this in your life to help you
+                    realize your deepest dreams.</p>
+                <p>Sign up <i>now</i> to get started.</p>
+                <p class="header-text-2">You <i>know</i> you want to.</p>
+            </div>
+            <div class="form">
+                <p class="form-header">Let's do this!</p>
+                <form action="#" method="post">
+                    <div class="first-row">
+                        <div>
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" id="first_name" placeholder="John">
+                        </div>
+                        <div>
+                            <label for="last_name">LAST NAME</label>
+                            <input type="text" id="last_name" placeholder="Doe">
+                        </div>
+                    </div>
+
+                    <div class="second-row">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" placeholder="john-doe@email.com">
+                        </div>
+
+                        <div>
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="text" id="phone" placeholder="xxx-xxx-xxxx">
+                        </div>
+                    </div>
+
+                    <div class="third-row">
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" required>
+                        </div>
+
+                        <div>
+                            <label for="confirm-password">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirm-password" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <button type="button" class="footer-button">Create Account</button>
+                <p class="footer-text">Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
